@@ -34,4 +34,7 @@ CREATE TABLE IF NOT EXISTS entries (
 
 
 <h2>Video Demo on navigating application</h2>
-[![Vocab Tracker PHP application](https://img.youtube.com/vi/7pR9-xiqucs/0.jpg)](https://www.youtube.com/watch?v=7pR9-xiqucs)
+
+[![View of vocabulary records on index.php](https://img.youtube.com/vi/7pR9-xiqucs/0.jpg)](https://www.youtube.com/watch?v=7pR9-xiqucs)
+
+Youtube Video: [Vocab Tracker PHP application demo](https://www.youtube.com/watch?v=7pR9-xiqucs)
