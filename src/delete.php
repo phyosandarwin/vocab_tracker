@@ -3,7 +3,7 @@ require_once "connection.php";
 session_start();
 
 if (!isset($_SESSION['name'])){
-    die("ACCESS DENIED. Please ensure you <a href ='login.php'>login</a> first");
+    die("<p style = 'color: red;'>ACCESS DENIED. Please ensure you <a href ='login.php'>login</a> first </p>");
 }
 
 if ( isset ($_POST['cancel'])){
@@ -40,10 +40,10 @@ if ( $row === false ) {
     <head>
         <title>Vocab Tracker Delete Page</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles/delete.css" class="stylesheet">
+        <link rel="stylesheet" href="../styles/delete.css" class="stylesheet">
     </head>
 <body>
-<div class="card text-center">
+<div class="card text-center" style="position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; height:auto;">
     <div class="card-header">Confirm Deletion</div>
     <div class="card-body">
         <p>Deleting the word<b><?= htmlentities($row['word']) ?></b>...</p>
@@ -59,4 +59,5 @@ if ( $row === false ) {
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
 </html>

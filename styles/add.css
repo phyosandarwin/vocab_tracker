@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -7,17 +7,7 @@
     box-sizing: border-box;
 }
 
-.text-area1{
-    width: 60%;
+.form-control{
     padding: 15px;
-    resize: none;
-    font-size: 14px;
-}
-
-.text-area2{
-    width: 70%;
-    height: 120px;
-    padding: 15px;
-    resize: none;
     font-size: 14px;
 }
